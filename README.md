@@ -10,7 +10,7 @@ setup
 
 Two options:
 
-1. Use the bash script
+1. Use the setup script
     ```
     sh setup.sh
     ```
