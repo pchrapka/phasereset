@@ -11,15 +11,15 @@ setup
 Two options:
 
 1. Use the bash script
-```
-sh setup.sh
-```
-which downloads and unzips the package into your MATLAB user folder.
+    ```
+    sh setup.sh
+    ```
+    which downloads and unzips the package into your MATLAB user folder.
 
 2. Clone the repo
-```
-git clone https://github.com/pchrapka/phasereset.git
-```
+    ```
+    git clone https://github.com/pchrapka/phasereset.git
+    ```
 
 usage
 -----
