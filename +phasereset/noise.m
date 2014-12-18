@@ -11,7 +11,7 @@ function signal = noise (frames, epochs, srate)
 %  signal - simulated EEG signal; vector: 1 by frames*epochs containing concatenated trials
 % Implemented by: Rafal Bogacz and Nick Yeung, Princeton Univesity, December 2002
 
-load meanpower  
+load(fullfile('+phasereset','meanpower')
 sumsig = 50;	%number of sinusoids from which each simulated signal is composed of
 
 signal = zeros (1, epochs * frames);
