@@ -42,7 +42,7 @@ else
 fi
 
 echo
-echo "If everything went well startup.m should work"
+echo "If everything went well $PKG_NAME should work"
 
 cd $CUR_DIR
 

@@ -5,13 +5,14 @@ phasereset is a MATLAB package that allows the generation of simulated EEG data 
 
 The original work and a brief tutorial can be found at http://www.cs.bris.ac.uk/~rafal/phasereset/.
 
-setup
------
+install
+-------
 
 Two options:
 
 1. Use the setup script
     ```
+    wget https://raw.githubusercontent.com/pchrapka/phasereset/master/setup.sh
     sh setup.sh
     ```
     which downloads and unzips the package into your MATLAB user folder.
@@ -21,13 +22,16 @@ Two options:
     git clone https://github.com/pchrapka/phasereset.git
     ```
 
-usage
+setup
 -----
 
-Add the path to your MATLAB project.
+Add the path to your MATLAB project or include it in a startup.m script.
 ```
-addpath(path_to_phasereset);
+addpath('/home/user/Documents/MATLAB/phasereset');
 ```
+
+usage
+-----
 
 Use the functions within your script by referencing the package functions
 ```
